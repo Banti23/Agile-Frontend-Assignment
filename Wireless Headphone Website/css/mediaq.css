@@ -1,0 +1,141 @@
+
+
+
+/* BreakPoint 01 */
+
+@media screen and (max-width:1024px) {
+    .nav-area{
+        display: none;
+    }
+    
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .details-area{
+        width: 100% ;
+        align-items: center;
+    }
+
+    .image-area{
+        width: 100% ;
+    }
+
+    .product-name{
+        
+        align-items: center;
+    }
+
+    .heading{
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .product1-name{
+        font-family: "fredoka one";
+        font-size: 45px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .feature{
+        font-size: 16px;
+    }
+
+    .feature::before{
+
+        height: 20px;
+        width: 20px;
+
+    }
+
+    .product-description{
+        justify-content: center;
+        padding: 10px 15px;
+    }
+    
+    .description{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .btn-area{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .btn{
+        margin: 12px;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .container-image{
+        width: 100%;
+    }
+
+    .image-area{
+        width: 375px;
+    }
+}
+
+@media screen and (max-width:512px) {
+    .container{
+        padding: 20px ;
+    }
+
+    .image-area{
+        width: 300px;
+        height: 300px;
+    }
+
+    .product-img{
+        width: 300px;
+    }
+
+    .p-img{
+        height: 300px;
+        z-index: -1;
+        top: 0px;
+        left: 125px;
+    }
+
+    .image-area{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+
+
+
+    .discount-img{
+        left: 80px;
+        top: 225px;
+        height: 80px;
+        
+    }
+    
+    
+    .discount-area{
+        height: 110px;
+        left: -35px;
+        top: 180px;
+    }
+
+
+
+    .discount-text{
+        top: 21px;
+        left: 16px;
+        font-size: 12px;
+    }
+    
+    .discount-percentage{
+        top: 38px;
+        left: 25px;
+        font-size: 20px;
+    }
+
+}

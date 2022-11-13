@@ -1,0 +1,321 @@
+/* header section */
+
+.header-section{
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 25px;
+}
+
+/* 
+header-section
+    logo-area
+*/
+.brand-logo{
+    height: 40px;
+}
+
+/* 
+header-section
+    nav-area
+*/
+.nav-area{
+    width: 100%;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    margin: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 
+header-section
+    action-area
+*/
+.action-icon{
+    height: 25px;
+    margin: 0px 6px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+/* 
+hero-section
+*/
+.hero-section{
+    height: 100%;
+}
+
+/* 
+hero-section
+    details-area
+*/
+
+/* 
+hero-section
+    details-area
+        product-name
+*/
+.product-name{
+    /* margin-top: 50px ; */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.heading:after{
+    content: "";
+    background-image:url(../assets/circles.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    
+    height: 30px;
+    width: 40px;
+
+    margin-left: 5px;
+
+
+}
+
+.product1-name{
+    font-family: "fredoka one";
+    font-size: 60px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 8px;
+}
+
+/* 
+hero-section
+    details-area
+        product-features
+*/
+
+.product-features{
+    width: 100%;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.details-area{
+    width: 50% ;
+    align-items: flex-start;
+}
+
+.feature{
+    font-size: 20px;
+    /* margin: 6px 0px; */
+    /* padding-left: 20px; */
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.feature::before{
+    content: "" ;
+    background-image: url(../assets/plus.png) ;
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+    background-color: #FE5E35;
+    
+    border-radius: 20px;
+
+
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 25px
+}
+
+/* 
+hero-section
+    details-area
+        product-description     
+*/
+
+.product-description{
+    justify-content: flex-start;
+
+}
+
+.description{
+    font-size: 15px;
+    
+}
+
+/* 
+hero-section
+    details-area
+        btn-area     
+*/
+
+.btn-area{
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0px ;
+}
+
+.btn{
+    margin: 15px;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #FE5E35;
+    border: none;
+    border-radius: 25px;
+    font-family: Poppins ;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* 
+hero-section
+    image-area
+*/
+
+.container-image{
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.image-area{
+    width: 375px;
+    align-items: center;
+    justify-content: center;
+    height: 375px;
+
+    position: relative;
+
+}
+
+/* 
+hero-section
+    image-area
+        product-img
+*/
+
+.product-img{
+    width: 375px;
+    justify-content: center;
+    /* margin: 50px; */
+    /* position: relative; */
+}
+
+.p-img{
+    height: 375px;
+    /* position: absolute; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    z-index: -1;
+    top: 0px;
+    left: 125px;
+}
+
+
+
+.discount-img{
+    height: 110px;
+    left: 80px;
+    top: 225px;
+    filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.5));
+    height: 110px;
+    z-index: -1;
+    
+}
+
+.discount-area{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+
+}
+
+.discount-area{
+    position: absolute;
+    height: 110px;
+    left: -40px;
+    top: 225px;
+}
+
+.discount-text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 12.5px;
+}
+
+.discount-percentage{
+    position: absolute;
+    font-family: "Fredoka One";
+    top: 50px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+/* .product-img{
+    margin: 50px;
+    /* position: relative; */
+/*     
+} */ 
+
+/* 
+hero-section
+    image-area
+        slides
+*/
+
+.slide-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.slide-1{
+    background-color: #FBD104;
+}
+
+.slide-2{
+    background-color: #FE5E35;
+}
+
+.slide-3{
+    background-color: black;
+}
+
+/* 
+hero-section
+    image-area
+        atc
+*/
+
+/* --------------------------------------------------------------------------- */
+
+/* .bg-black{
+    border: 1px solid black;
+} */
+
+/* .red-black{
+    border: 1px solid red;
+} */
+
+/* .blue-border{
+    border: 1px solid blue;
+} */

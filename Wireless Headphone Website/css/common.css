@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Poppins;
+}
+
+.container{
+    padding: 50px ;
+    width: auto;
+    height: auto;
+}
+
+
+/* Flex-Col Property */
+.container,
+.product-name,
+.product-features,
+.details-area,
+.image-area,
+.container-image
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Flex-Row Property */
+.header-section,
+.nav-area,
+.hero-section,
+.btn-area,
+.slides,
+.action-area,
+.feature,
+.product-description,
+.product-img,
+.atc {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* Flex-Row Justify-Center */
+.nav-area,
+.product-img,
+.slides,
+.atc{
+    justify-content: center;
+}
+
+
+
+
+/* Flex-Row Justify-Between */
+.header-section,
+.details-area{
+    justify-content: space-between;
+}
+
+
+
+
+/* Flex-Row items-center */
+.header-section,
+.nav-area,
+.btn-area,
+.slides,
+.atc{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
